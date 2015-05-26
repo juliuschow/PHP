@@ -1,5 +1,4 @@
 <?php
-// Here your code !
 for($a=0;$a++<100;)
 echo(
     $a%15?
