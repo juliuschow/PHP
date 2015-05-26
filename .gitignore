@@ -1,0 +1,25 @@
+<?php
+// Here your code !
+for($a=0;$a++<100;)
+echo(
+    $a%15?
+        $a%3?
+            $a%5?$a
+                :"Buzz"
+            :"Fizz"
+        :"FizzBuzz"
+    )
+    ."\n";
+
+/*for($a=1;$a<101;$a++){
+    if($a%15==0)
+        echo "FizzBuzz";
+    else if($a%3==0)
+        echo"Fizz";
+    else if($a%5==0)
+        echo"Buzz";
+    else 
+        echo $a;
+    echo"\n";
+}*/
+?>
